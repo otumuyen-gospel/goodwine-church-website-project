@@ -1,0 +1,274 @@
+#login{
+    margin:6% auto;
+    padding: 2rem;
+}
+#login .form-group button:active, .form-group button:focus{
+    border: none;
+    outline: none;
+}
+#login .form-group{
+    margin-bottom: 4rem;
+}
+#login .form-group h2 span{
+    margin-right: 1rem;
+}
+
+
+#loader, #output{
+    display: none;
+}
+
+
+body,h1,h2,h3,h4,h5,h6{
+    margin: 0px;
+    padding: 0px;
+}
+#dashboard{
+    background-color: #EFEFEF;
+}
+#header{
+    background-color: #FFF;
+    position: fixed;
+    border:1px solid #CCC;
+    z-index: 99;
+    margin: 0px;
+}
+.left-header{
+    background-color:#0275d8;
+    color: #FFF;
+}
+.left-header h3{
+    padding: 2rem;
+}
+.right-header .form-group{
+    margin-top: 1.5rem;
+}
+.right-header ul{
+    margin-top: 1.5rem;
+}
+#mobile{
+    background-color: rgba(0,0,0,0.3);
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top:0px;
+    left:0px;
+    z-index: 100;
+    overflow: auto;
+    display: none;
+}
+#main{
+    overflow: hidden;
+}
+.sidebar{
+    background-color: #FFF;
+    position: fixed;
+    height: 100vh;
+    margin-top: 65px;
+    padding-top: 4rem;
+    border:1px solid #CCC;
+    overflow: auto;
+}
+#mobile .sidebar{
+    margin: 0px;
+    padding: 0px;
+    width: 270px;
+}
+#mobile .left-header{
+    margin-bottom: 2rem;
+}
+#profile-show{
+    padding: 0rem 2rem;
+    margin-bottom: 2rem;
+    overflow: hidden;
+}
+#profile-show h1 button{
+    margin-right: 2rem;
+    color:#FFF;
+    background-color: #0275d8;
+    border:none;
+    border-radius: 100px;
+    width: 50px;
+    height:50px;
+    
+}
+#profile-show h3 small{
+    display: block;
+}
+.glyphicon-menu-hamburger:hover{
+    cursor: pointer;
+    color: #DDD;
+}
+.clear{
+    clear: both;
+}
+.nav li{
+    margin: 2rem auto;
+}
+ ul ul{
+    margin-left: 4rem;
+}
+ul ul li{
+    margin-bottom: 1rem;
+}
+
+.mainbar{
+    margin-top: 85px;
+    overflow: hidden;
+    margin-left: 25%;
+}
+
+.stat-holder{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.stat {
+    width: 48%;
+    margin: 3rem 1%;
+    position: relative;
+    border-radius: 0.4rem;
+    border:1px solid #CCC;
+    position: relative;
+    padding: 0px;
+    background-color: #FFF;
+    text-align: center;
+    padding: 1.25rem 0;
+}
+.alert-success{
+    background-color: #0275d8;
+    color: #FFF;
+}
+#message-panel button{
+    color: #FFF;
+}
+.stat *{
+    margin: 2rem auto;
+    font-weight: bolder;
+}
+.panels .embed-responsive video{
+    margin-top: -4rem;
+}
+.panels .videoupload{
+    margin-bottom: 4rem;
+}
+.panels{
+    background-color: #FFF;
+    padding: 1rem;
+    overflow: hidden;
+
+}
+.panels .form-group{
+    margin-bottom: 3rem;
+}
+hr{
+    height: 5px;
+    display: block;
+    background-color: #0275d8;
+    margin-bottom: 5rem;
+}
+
+
+#mymodal{
+    top: 0px;
+    left: 0px;
+    position: fixed;
+    background-color: rgba(0,0,0,0.3);
+    width: 100%;
+    height: 100vh;
+    z-index: 120;
+    display: none;
+}
+#close{
+    color: #555;
+    font-weight:lighter;
+    font-size: 25px;
+}
+#close:hover{
+    color: #CCC;
+    cursor: pointer;
+}
+#mymodal .message-holder{
+    background-color: #FFF;
+    padding: 1rem 3rem;
+}
+
+.results{
+    margin: 2rem;
+}
+.results section{
+    margin: 2rem auto;
+    border-bottom: 1px solid #EEE;
+    overflow: hidden;
+}
+.results h1{
+    font-weight: lighter;
+    margin: 2rem auto;
+    text-align: center;
+}
+.results h4,h5,h6{
+    margin: 1rem auto;
+}
+.results span{
+    display: block;
+    font-weight: lighter;
+    font-size: 5rem;
+    float: left;
+    margin-right: 1rem;
+}
+.results .btn{
+    margin-bottom: 1rem;
+}
+.results img{
+    float: left;
+    width: 80px;
+    height: 80px;
+    margin-right: 1rem;
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 62em){
+    #header{
+        background-color: #FFF;
+        position: relative;
+        overflow: hidden;
+    }
+    .mainbar{
+        margin: 1rem;
+    }
+    
+}
+@media screen and (max-width: 48em){
+    #header{
+        background-color: #FFF;
+        position: relative;
+        overflow: hidden;
+    }
+    .mainbar{
+        margin: 1%;
+        width: 98%;
+    }
+    .stat-holder{
+        display: block;
+    }
+    .stat{
+        width: auto;
+        margin: 3rem 0;
+    }
+    .panels{
+        overflow-x: auto;
+    }
+}
+
+
+
+
+
+

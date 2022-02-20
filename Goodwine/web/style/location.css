@@ -1,0 +1,316 @@
+#loader-view{
+    position: fixed;
+    top:0px;
+    left:0px;
+    height: 100vh;
+    width:100%;
+    z-index: 1000;
+    background-color: rgba(255,255,255,1);
+    display: none;
+}
+
+#loader-view img{
+    margin-left: 40%;
+    margin-top: 8%;
+    width: 20%;
+    height: auto;
+}
+
+
+body{
+    margin: 0px;
+}
+.navigation{
+    background-color: transparent;
+    top: 0px;
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    padding: 2rem 3em;
+}
+.nav-move{
+    background-color:  #0275d8;
+    box-shadow: 1px 1px 1px 1px  #0275d8;
+    transition: 1s;
+}
+.nav-return{
+    box-shadow: none;
+    background-color: transparent;
+    transition: 1s;
+}
+ .navigation a{
+    color: #FFF;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 11px;
+}
+#text-logo{
+    color:rgba(255,255,200,0.99);
+    font-weight: bolder;
+    font-size: 20px;
+    font-family: verdana;
+}
+.navigation ul li a{
+    margin-left: 1em;
+    padding: 2rem 0.5rem;
+}
+.navigation ul li  a:hover{
+    background-color: rgba(255, 255, 255, .1);
+}
+.navigation ul li  a span{
+    margin-right: 0.2em;
+}
+#show-sidebar{
+    outline: none;
+}
+#show-sidebar:hover{
+    background-color: #CCC;
+}
+#sidebar{
+    width: 100%;
+    position: fixed;
+    height: 100vh;
+    z-index: 99;
+    background-color: rgba(255, 0, 0, 0.5);
+    top: 0;
+    right: -0%;
+    display: none;
+}
+#sidebar h1{
+    color: #FFF;
+    position:absolute;
+    top: -1rem;
+    cursor: pointer;
+    left: 2rem;
+    font-size: 4rem;
+    font-weight: normal;
+}
+#sidebar h1:hover{
+   color: #CCC;
+}
+#show-sidebar{
+    background-color: transparent;
+    color: #FFF;
+    font-size: large;
+}
+#show-sidebar:hover{
+    background-color: rgba(255, 255, 255, .2);
+}
+#sidebar ul{
+    background-color: royalblue;
+    height: 100vh;
+    width: 80%;
+    padding: 0px;
+    position: relative;
+    left: 20%;
+    margin: 0px;
+}
+#sidebar ul li{
+    padding: 0px;
+    margin: 0px;
+}
+#sidebar ul li a{
+    padding: 2rem 6rem;
+    margin: 0px;
+    font-size: 1.5rem;
+    display: block;
+    color: #FFF;
+}
+#sidebar ul li a:hover{
+    background-color: #FFF;
+    color: #333;
+    cursor: pointer;
+}
+body,video,h1,h2,h3,h4,h5,h6{
+    margin: 0px;
+    padding: 0px;
+}
+#banner{
+    width: 100%;
+    background-image: url("../asset/contact.JPG");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.widget{
+    width: inherit;
+    padding:15% 0px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+.widget h1{
+    color: #FFF;
+    font-size: 5rem;
+    font-weight: lighter;
+    text-transform: uppercase;
+}
+
+.main{
+    padding: 10rem 3rem 2rem 3rem;
+}
+.main div{
+    margin: 2rem 0px;
+}
+.main h2{
+    font-weight: bolder;
+    margin-bottom: 10rem;
+}
+.main p{
+    color: #5A5A5A;
+    margin-bottom: 3rem;
+}
+.main h3{
+    font-weight: bolder;
+    margin-bottom: 4rem;
+}
+.main h4{
+    font-weight: lighter;
+}
+.main h4 span{
+    color: #999;
+}
+
+.others{
+    padding: 3rem;
+}
+.others h3{
+    font-weight: bolder;
+    margin-bottom: 4rem;
+    text-transform: uppercase;
+}
+.others p{
+    color: #5A5A5A;
+    font-size: 16px;
+    font-weight: bolder;
+}
+
+
+.events{
+    padding:  3rem;
+}
+.events h1{
+    margin: 3rem 0;
+}
+
+
+footer {
+    background-color: #191919;
+    color: #ADADAD;
+    margin-top: 3em;
+    padding: 3em 0;
+}
+footer h5{
+    margin: 5em 0px 3em 0px;
+    font-weight: bold;
+}
+footer ul {
+    margin-bottom: 5em;
+}
+footer ul li{
+    margin-bottom: 1rem;
+}
+footer ul li a button{
+    background-color: #FFF;
+    padding: 5px;
+    border-radius: 100px;
+    border:none;
+    outline: none;
+    width: 50px;
+    height: 50px;
+}
+footer ul li a button:hover{
+    background-color: royalblue;
+    color: #FFF;
+}
+   
+footer a {
+    color: #5A5A5A;
+}
+footer a:hover {
+    text-decoration: none;
+    color: #FFF;
+}
+
+#text-logo-footer {
+    margin-top: 4em ;
+    display: inline-block;
+    color:rgba(255,255,200,0.99);
+    font-weight: bolder;
+    font-size: 20px;
+    font-family: verdana;
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:48em) {
+    .sermons{
+        flex-wrap: wrap;
+        width: auto;
+    }
+    .card{
+        width: auto;
+        margin: 3rem auto;
+    }
+    .logo{
+        margin-left: -40px;
+    }
+    #show-sidebar{
+        margin-right: -40px;
+        margin-top: -5px;
+    }
+    #banner{
+        height: 63vh;
+    }
+    .widget{
+        padding:  0px;
+        padding: 40% 0px 0px 0px;
+        height: 100%;
+    }
+    .main{
+        padding: 7rem 0.5rem 3rem 0.5rem;
+    }
+    #text-logo{
+        margin-left: -30px;
+    }
+}
+
+@media screen and (max-width:20em){
+    .sermons{
+        flex-wrap: wrap;
+        width: auto;
+    }
+    .card{
+        width: auto;
+        margin: 3rem auto;
+    }
+    #banner{
+        height: 63vh;
+    }
+    .widget{
+        padding:  0px;
+        padding: 40% 0px 0px 0px;
+        height: 100%;
+    }
+    .logo{
+        margin-left: -40px;
+    }
+    #show-sidebar{
+        margin-top: -5px;
+        margin-right: -40px;
+    }
+    .main{
+        padding: 4rem 0.5rem 3rem 0.5rem;
+    }
+    .main h2{
+        margin-bottom:3rem ;
+    }
+    #text-logo{
+        margin-left: -30px;
+    }
+}

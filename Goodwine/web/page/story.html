@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html  lang="en">
+    <head>
+        <title></title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <meta name=”robots” content=”index,follow”> 
+        <meta name="description" content="">
+        <meta name="keyword" content="Good Wine, bible, believing,christian,love world">
+        <link rel="icon" href="../asset/logo.jpg"/>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js" defer></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" crossorigin="anonymous" defer></script>   
+        <!-- Include HTML5 Shim and Respond.js for IE6-8 support of HTML5
+         elements and media queries -->
+         <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js" defer></script>
+         <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js" defer></script> 
+         <link rel="stylesheet" href="../style/story.css"/>
+         <script src="../script/story.js" defer></script>
+         <script src="../script/ajax.js" defer></script>
+         <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
+    </head>
+    <body onload="story();">
+        <div id="loader-view">
+            <img src="../asset/loader3.gif"/>
+        </div>
+        <div class="container-fluid">
+            <nav class="row navigation">
+                <div class="nav-logo pull-left">
+                    <a href="../"><span id="text-logo"><img src="../asset/logo.jpg" alt="Goodwine" height="40" width="40"/></span></a>
+                </div>
+                <ul class="list-inline list-unstyled pull-right hidden-xs hidden-sm">
+                    <li><a href="../page/about.html"><span class="fa fa-address-card"></span>About us</a></li>
+                    <li><a href="../#contact"><span class="fa fa-phone"></span>Contact us</a></li>
+                    <li><a href="../#sermon"><span class="fa fa-book"></span>Sermon</a></li>
+                    <li><a href="../#events"><span class="fa fa-gift"></span>Events</a></li>
+                    <li><a href="../page/location.html"><span class="fa fa-map"></span>Location</a></li>  
+                </ul>
+                <button class="pull-right visible-xs visible-sm btn btn-secondary" id="show-sidebar">
+                    <span class="glyphicon glyphicon-menu-hamburger"></span>
+                </button>
+                <div id="sidebar">
+                    <h1 id="hide-sidebar">&times;</h1>
+                    <ul class="list-unstyled">
+                        <li><a href="../page/about.html">About us</a></li>
+                        <li><a href="../#contact">Contact us</a></li>
+                        <li><a href="../#sermon">Sermon</a></li>
+                        <li><a href="../#events">Events</a></li>
+                        <li><a href="../page/location.html">Location</a></li>
+                   
+                    </ul>
+                </div>
+                
+            </nav>
+        </div>
+        <div class="main container-fluid">
+            <div class="col-md-12">
+                <h2></h2>
+            </div>
+            <div class="col-sm-12">
+                <div class="col-md-5 col-sm-12">
+                    <img src="" class="img-responsive"/>
+                </div>
+                <div class="col-md-7 col-sm-12">
+                    <div class="text">
+                        <h4></h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="main container-fluid" id="related">
+            
+        </div>
+        
+        <div class="container-fluid text-center" id="reload"><span class="fa fa-refresh" onclick="next();"></span></div>
+        
+        <footer>
+            <div class="container">
+                <div class="col-sm-3">
+                    <a href="../"><span id="text-logo-footer"><img src="../asset/logo.jpg" style="margin: 0px;" alt="Goodwine" height="50" width="50"/></span></a>
+                </div>
+                <div class="col-sm-3">
+                    <h5>About Us</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="../page/about.html#vision">Vision</a></li>
+                        <li><a href="../page/about.html#mission">Mission</a></li>
+                        <li><a href="../page/about.html#values">Core Values</a></li>
+                        <li><a href="../page/about.html#leadership">Leadership</a></li>
+                        <li><a href="../page/history.html">History</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-3">
+                    <h5>Other Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="../page/location.html">Location</a></li>
+                        <li><a href="../#contact">Contact</a></li>
+                        <li><a href="../#sermon">Sermons</a></li>
+                        <li><a href="../#events">Events</a></li>
+                        <li><a href="../page/privacy.html">Privacy Policy</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-sm-3">
+                    <h5>Social Media</h5>
+                    <ul class="list-unstyled list-inline">
+                        <li><a href="" class="youtube" target="_blank"><button><i class="fa fa-youtube"></i></button></a></li>
+                        <li><a href="" class="facebook" target="_blank"><button><i class="fa fa-facebook"></i></button></a></li>
+                        <li><a href="" class="instagram" target="_blank"><button><i class="fa fa-instagram"></i></button></a></li>
+                        <li><a href=""class="twitter" target="_blank"><button><i class="fa fa-twitter"></i></button></a></li>
+                    
+                    </ul>
+                </div>
+            </div>
+       
+            <h4 class="text-center"><small>© <script>document.write(new Date().getFullYear())</script> Goodwine Church. All rights reserved.</small></h4>
+        
+        </footer>
+    </body>
+</html>

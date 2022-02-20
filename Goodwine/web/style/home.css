@@ -1,0 +1,443 @@
+#loader-view{
+    position: fixed;
+    top:0px;
+    left:0px;
+    height: 100vh;
+    width:100%;
+    z-index: 1000;
+    background-color: rgba(255,255,255,1);
+    display: none;
+}
+
+#loader-view img{
+    margin-left: 40%;
+    margin-top: 8%;
+    width: 20%;
+    height: auto;
+}
+
+body{
+    margin: 0px;
+}
+.navigation{
+    background-color: transparent;
+    top: 0px;
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    padding: 2rem 3em;
+}
+.nav-move{
+    background-color:  #0275d8;
+    box-shadow: 1px 1px 1px 1px  #0275d8;
+    transition: 1s;
+}
+.nav-return{
+    box-shadow: none;
+    background-color: transparent;
+    transition: 1s;
+}
+ .navigation a{
+    color: #FFF;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 11px;
+}
+.navigation ul li a{
+    margin-left: 1em;
+    padding: 2rem 0.5rem;
+}
+.navigation ul li  a:hover{
+    background-color: rgba(255, 255, 255, .1);
+}
+.navigation ul li  a span{
+    margin-right: 0.2em;
+}
+#show-sidebar{
+    outline: none;
+}
+#show-sidebar:hover{
+    background-color: #CCC;
+}
+#show-sidebar{
+    background-color: transparent;
+    color: #FFF;
+    font-size: large;
+}
+#show-sidebar:hover{
+    background-color: rgba(255, 255, 255, .2);
+}
+#sidebar{
+    width: 100%;
+    position: fixed;
+    height: 100vh;
+    z-index: 99;
+    background-color: rgba(255, 0, 0, 0.5);
+    top: 0;
+    right: -0%;
+    display: none;
+}
+#sidebar h1{
+    color: #FFF;
+    position:absolute;
+    top: -1rem;
+    cursor: pointer;
+    left: 2rem;
+    font-size: 4rem;
+    font-weight: normal;
+}
+#sidebar h1:hover{
+   color: #CCC;
+}
+#sidebar ul{
+    background-color: royalblue;
+    height: 100vh;
+    width: 80%;
+    padding: 0px;
+    position: relative;
+    left: 20%;
+    margin: 0px;
+}
+#sidebar ul li{
+    padding: 0px;
+    margin: 0px;
+}
+#sidebar ul li a{
+    padding: 2rem 6rem;
+    margin: 0px;
+    font-size: 1.5rem;
+    display: block;
+    color: #FFF;
+}
+#sidebar ul li a:hover{
+    background-color: #FFF;
+    color: #333;
+    cursor: pointer;
+}
+body,video,h1,h2,h3,h4,h5,h6{
+    margin: 0px;
+    padding: 0px;
+}
+#vid{
+    width: 100%;
+}
+#text-logo{
+    color:rgba(255,255,200,0.99);
+    font-weight: bolder;
+    font-size: 20px;
+    font-family: verdana;
+}
+#vid video{
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}
+
+.widget{
+    width: inherit;
+    height: 100vh;
+    padding-top:  23%;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+.widget h1{
+    color: #FFF;
+    font-size: 5rem;
+    font-weight: lighter;
+    margin-bottom: 3rem;
+    text-transform: uppercase;
+}
+.widget p{
+    color: #FFF;
+    font-size: 2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 3rem;
+}
+.mylinks a{
+    border-radius: 50px;
+    width: 15rem;
+    display: inline-block;
+    padding: 1rem;
+    color: #FFF;
+    position: relative;
+    z-index: 1;
+    background-color: #0275d8;
+}
+.mylinks a:hover{
+    text-decoration: none;
+    background-color: dodgerblue;
+}
+.mylinks span{
+    margin-right: 1rem;
+    font-size: 1rem;
+}
+.welcome{
+    padding: 9rem 0;
+}
+.welcome h2{
+    margin-bottom: 4rem;
+}
+.welcome p{
+    color: #555;
+}
+
+
+.sermon{
+    background-color: rgba(255, 0, 0, 0.6);
+    padding: 3rem 0;
+}
+.sermons{
+    display: flex;
+    width: 96%;
+}
+.sermon h1{
+    margin: 3rem 0;
+    color: #FFF;
+}
+.sermon h3{
+    margin: 3rem 0;
+    color: #FFF;
+}
+.card-img-top{
+    height: 250px;
+    width:100%;
+    object-fit: cover;
+}
+.card {
+    width: 30%;
+    margin: 3rem;
+    position: relative;
+    border-radius: 0.4rem;
+    position: relative;
+    padding: 0px;
+    background-color: #FFF;
+}
+
+.card-block {
+    padding: 1.25rem;
+}
+
+.events{
+    padding:  3rem;
+}
+.events h1{
+    margin: 3rem 0;
+}
+.carousel-inner .item img{
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+}
+
+.testimonial {
+    padding: 3rem;
+}
+.testimonial .col-sm-6{
+    margin-bottom: 3rem;
+}
+.testimonial h1{
+    text-align: center;
+    margin: 4rem 0;
+    text-transform: uppercase;
+}
+.testimonial h4{
+    margin:3rem 0;
+}
+.testimonial img{
+    border-radius: 100px;
+    width: 200px;
+    height:200px;
+}
+#contact{
+    background-image: url("../asset/contact.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#contact h1{
+    color: #CCC;
+    padding: 5rem 0;
+    font-weight: bolder;
+}
+
+#contact .contact-form{
+    background-color: rgba(10, 10, 10, 0.97);
+    padding: 5rem 0;
+}
+#contact .group div{
+    margin-bottom: 2rem;
+}
+#contact .group div input{
+    width: 100%;
+    padding: 10px;
+    border-radius: 50px;
+    outline: none;
+    border: none;
+    border:1px solid #CCC;
+}
+#contact .group div input:hover{
+    border:1px solid #BBB;
+}
+#contact .group div input:focus{
+    border:1px solid #BBB;
+}
+#contact .group div textarea{
+    width: 100%;
+    padding: 10px;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    border:1px solid #CCC;
+}
+
+.subscribe{
+    padding: 3rem 0;
+}
+.subscribe h1{
+    margin: 6rem 0;
+    font-weight: bolder;
+}
+footer {
+    background-color: #191919;
+    color: #ADADAD;
+    margin-top: 3em;
+    padding: 3em 0;
+}
+footer h5{
+    margin: 5em 0px 3em 0px;
+    font-weight: bold;
+}
+footer ul {
+    margin-bottom: 5em;
+}
+footer ul li{
+    margin-bottom: 1rem;
+}
+footer ul li a button{
+    background-color: #FFF;
+    padding: 5px;
+    border-radius: 100px;
+    border:none;
+    outline: none;
+    width: 50px;
+    height: 50px;
+}
+footer ul li a button:hover{
+    background-color: royalblue;
+    color: #FFF;
+}
+   
+footer a {
+    color: #5A5A5A;
+}
+footer a:hover {
+    text-decoration: none;
+    color: #FFF;
+}
+#text-logo-footer {
+    margin-top: 4em ;
+    display: inline-block;
+    color:rgba(255,255,200,0.99);
+    font-weight: bolder;
+    font-size: 20px;
+    font-family: verdana;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:48em) {
+    .sermons{
+        flex-wrap: wrap;
+        width: auto;
+    }
+    .card{
+        width: auto;
+        margin: 3rem auto;
+    }
+    #text-logo{
+        margin-left: -30px;
+    }
+    .widget{
+        padding-top:  50%;
+    }
+    .carousel-inner .item img{
+        height: 400px;
+    }
+    .card-img-top{
+        height: 400px;
+        width:100%;
+        object-fit: cover;
+    }
+    #show-sidebar{
+        margin-right: -40px;
+        margin-top: -5px;
+    }
+}
+
+@media screen and (max-width:30em) {
+    .sermons{
+        flex-wrap: wrap;
+        width: auto;
+    }
+    .card{
+        width: auto;
+        margin: 3rem auto;
+    }
+    #text-logo{
+        margin-left: -30px;
+    }
+    .widget{
+        padding-top:  50%;
+    }
+    .carousel-inner .item img{
+        height: 200px;
+    }
+    .card-img-top{
+        height: 250px;
+        width:100%;
+        object-fit: cover;
+    }
+    #show-sidebar{
+        margin-right: -40px;
+        margin-top: -5px;
+    }
+}
+
+@media screen and (max-width:20em){
+    .sermons{
+        flex-wrap: wrap;
+        width: auto;
+    }
+    .card{
+        width: auto;
+        margin: 3rem auto;
+    }
+    .widget{
+        padding-top:  50%;
+    }
+    #text-logo{
+        margin-left: -30px;
+    }
+    #show-sidebar{
+        margin-top: -5px;
+        margin-right: -40px;
+    }
+    .card-img-top{
+        height: 200px;
+        width:100%;
+        object-fit: cover;
+    }
+    .carousel-inner .item img{
+        height: 200px;
+    }
+    .mylinks a{
+       display: inline;
+    }
+}
